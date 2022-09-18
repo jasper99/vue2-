@@ -9,7 +9,7 @@
         <input type="checkbox" :id="`checkbox-${key}`" v-model="checkboxList[key]" >
         <label :for="`checkbox-${key}`">checkbox-{{key}}</label>
      </div>
-     <!-- <div>{{checkboxSelectAll}}- {{checkboxList}}</div> -->
+     <div>{{checkboxSelectAll}}- {{checkboxList}}</div>
   </div>
 </template>
 
