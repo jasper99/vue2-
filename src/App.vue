@@ -10,7 +10,6 @@
         <input type="checkbox" :id="`checkbox-${key}`" v-model="checkboxList[key]" @click="checkboxClick">
         <label :for="`checkbox-${key}`">checkbox-{{key}}</label>
      </div>
-     <!-- <div>{{checkboxSelectAll}}- {{checkboxList}}-{{num}}</div> -->
   </div>
 </template>
 
